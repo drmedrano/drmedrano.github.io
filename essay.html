@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title> Project </title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+		<meta name="viewport" content="width=device-width">
+		<style>
+			body {
+				background-color: #5d5c61 ;
+				font-family: 'Open Sans', sans-serif;
+				}
+			
+			#mainpage {
+				width: 1100px;
+				color: white;
+				margin-left: auto;
+				margin-right: auto;
+				}
+			
+			#navbar {
+				background-color: #557a95;
+				float: left;
+				width: 1100px;
+				padding: 12px;
+				font-size: 14pt;	
+				}
+			
+			a {
+				text-decoration: none;
+				color: white;
+				}
+			p {
+				padding-top: 5px;
+				line-height: 30px;
+				text-align: justify;
+				text-justify: inter-word;
+			 }
+			#essay {
+				width: 740px;
+				float: right;
+				border-left: 2px solid white;
+				text-indent: 50px;
+				padding-left: 10px;
+				font-size: 12pt;
+				padding-bottom: 50px;
+				}
+			
+			#second {
+				width: 340px;
+				float: left;
+				padding-right: 8px;
+				font-size: 11pt;
+				height: 2173px;
+				padding-bottom: 50px;
+				}
+			
+			#picture {
+				float: right;
+				height: 230px;
+				width: 400px;
+				padding-top: 20px;
+				}
+				
+			#picture2{
+				float: left;
+				height: 300px;
+				width: 550px;
+				padding-right: 5px;
+				}
+				
+			#picture3{
+				float: right;
+				height: 260px;
+				width: 480px;
+				padding-top: 20px;
+				padding-left: 5px;
+				}
+			#essayt {
+				display: none;
+				width: 0px;
+				height: 0px;
+			}
+			@media screen and (max-width: 1100px) and (min-width: 470px){
+				body{
+					width: 1024px !important;
+				}
+				h1 {
+					font-size: 40px !important;
+				}
+				h2 {
+					font-size: 35px !important;
+				}
+				p {
+					font-size:33px !important;
+					line-height: 60px !important;
+				}
+				#mainpage {
+					width: 1024px !important;
+				}
+				#navbar{
+					width: 1024px !important;
+					overflow: hidden !important;
+					height: 45px !important;
+					padding: 20px !important;
+					font-size: 30px !important;
+				}
+				#essay {
+					overflow: hidden !important;
+					width: 950px !important;
+					padding-left: 44px !important;
+					padding-right: 30px !important;
+					border-left: none !important;
+				}
+				#picture{
+					overflow: hidden !important;
+					height: 230px !important;
+					width: 410px !important;
+					padding-left: 20px !important;
+					padding-top: 45px !important;
+				}
+				#picture2 { 
+					overflow: hidden !important;
+					float: left !important;
+					height: 230px !important;
+					width: 410px !important;
+					padding-right: 10px !important;
+					padding-top: 50px !important;
+					padding-bottom: 0 !important;
+				}
+
+				#picture3{
+					overflow: hidden !important;
+					float: right !important;
+					height: 230px !important;
+					width: 410px !important;
+					padding-left: 20px !important;
+					padding-top: 55px !important;
+				}
+				#second {
+					display: none !important;
+				}
+				#essayt {
+					display: block !important;
+					width: auto !important;
+					height: auto !important;
+					margin-left: auto !important;
+					margin-right: auto !important;
+					padding-top: 60px !important;
+					padding-left: 15px !important;
+				}
+			}
+			@media screen and (max-width: 360px){
+				body{
+					width: 360px !important;
+				}
+				#mainpage {
+					width: 360px !important;
+				}
+				#navbar{
+					width: 360px !important;
+					overflow: hidden !important;
+				}
+				#essay {
+					overflow: hidden !important;
+					width: 350px !important;
+					padding-left: 10px !important;
+					border-left: none !important;
+				}
+				#picture{
+					overflow: hidden !important;
+					height: 190px !important;
+					width: 350px !important;
+					padding-left: 20px !important;
+					padding-top: 20px !important;
+					padding-bottom: 10px !important;
+				}
+				#picture2 { 
+					float: left !important;
+					height: 190px !important;
+					width: 350px !important;
+					padding-right: 10px !important;
+					padding-bottom: 10px !important;
+				}
+
+				#picture3{
+					float: right !important;
+					height: 190px !important;
+					width: 350px !important;
+					padding-left: 20px !important;
+					padding-bottom: 10px !important;
+				}
+				#second {
+					display: none !important;
+				}
+				#essayt {
+					display: block !important;
+					width: auto !important;
+					height: auto !important;
+					margin-left: auto !important;
+					margin-right: auto !important;
+					padding-top: 60px !important;
+					padding-left: 15px !important;
+				}
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="mainpage">
+			<h1 style="margin-left: 10px;"> Essay Page </h1>
+			<div id="navbar">
+				<table>
+					<tr>
+						<td style="padding-right: 10px"> <a href="index.html"> Home </a> </td>
+						<td style="padding-right: 10px"> <a href="essay.html"> Essay </a> </td>
+						<td> <a href="author.html"> Author </a> </td>
+					</tr>
+				</table>
+			</div>
+			<div id="essayt">
+				<center> <h2 style="padding-top: 20px;"> A Modest Proposal: <br>
+					A Solution to Bullying </h2> </center>
+			</div>
+			<div id="essay">
+				<img src="bullying.jpg" id="picture">
+				<p> Bullying has been around longer than the recorded human history, always seen as a normal thing in the past, never has it been seen as an issue as bad as it is seen today. 
+				Bullying is an unsolved social issue involving people with hostile intent, imbalance of power, repetition, distress, and provocation. 
+				This was never seen as an issue until it was brought up in recent years. 
+				The rise of technology has given people a new way to bully people over the internet while they can intentionally stay anonymous. 
+				Many have tried to eradicate it, hosting seminars, programs, and anti-bullying rules, but none have succeeded in completely bringing down its numbers. 
+				Bullying also affects the rates of suicide because of the emotional and physical trauma the victims go over, they think that killing themselves is the best solution to ending the pain they suffer from, when it doesn’t. 
+				The purpose of this proposal is to drastically decrease the bullying cases and the suicide cases caused by it. </p>
+				</p>
+				<br>
+				<img src="compound.png" id="picture2">
+				<p> It starts with the offenders and the victims thrown inside a compound, as test subjects of a number of scientists. These scientists will perform multiple tests on their new lab rats, of which are the common mental health checks, and the write-your-experiences assessments. These will provide them sufficient information on how badly the victim is affected by the bullying he has gone through. The parents of the victim will receive a compensation of riches in different forms depending on how badly their child was damaged from the bullying they received. The victims will then receive utmost care and attention they need to heal from the damages they are healing from. The bullies on the other hand will be treated differently. They will be put through a legitimate lie detector test, being asked questions that should make them hesitant to answer. Whenever they are detected to be lying, it will affect the weight of their punishments. This test will basically force them to confess on what they did to their victims. After answering every question, they will be forced to say that they are shameful citizens of society for picking on the weaker and not being strong enough to bully those of equal strength or stronger. If they try to refuse saying the line, their hands will be dipped on a bucket of boiling water, to add more salt to their shameful wounds, their confessions will be recorded and sent to his family. With this, their trauma will start building up and they’ll start feeling that they are not the strongest people of the society. 
+				</p>
+				<br>
+				<img src="asylum.jpg" id="picture3">
+
+				<p>
+				The next step in this big experiment is to throw them inside a small, dark, and sound-proof asylum for six hours every day, this will serve as their only time to rest after the mental and physical trauma they will go through for the next seven days. The seven days will be their time to repent from their sins. They will be thrown in a prison setting for eighteen hours every day, they will be living with prisoners of many crimes whom will be the key to the next step of this experiment. These criminals will be verbally abusing them and physically abusing them at acceptable rates. This step of the experiment will be to break the mentality of the bullies that they are the strongest of this society. Once they break, they will be immediately taken and will be given the test that were given to their victims, but will still be under a lie detector test to ensure that the bullies aren’t acting to get away from this whole experiment. Their improvements will then be recorded, and they’ll soon get the recovery they need after receiving a controlled amount of trauma. As for those that were acting to get out of this experiment, will be given another seven-day punishment. And for those that will start bullying after already being in this experiment, they will be given much heavier punishments for repeating. </p>
+				<br>
+				<p> My proposal is an absolute solution to finally stop the never-ending issue of bullying. While it is an absolute solution, it isn’t a very appropriate and realistic solution that will benefit all sides of the issue. The only realistic solution is to encourage those that are becoming victims and already victims to confess once they feel very offended and uncomfortable. The adults of this society should take the issue more seriously and not let those bullies get past that barrier. The bullies should get the correct magnitude of punishment and not receive the minimum, nor the maximum magnitude, and shall receive the maximum if he or she repeats it. Those witnesses of these bullying cases should step up and speak out the truth in order to speed up the cases, for that is the only real solution to bullying. </p>
+			
+			</div>
+			<div id="second" style="text-indent:0;">
+				<center> <h2> A Modest Proposal: A Solution to Bullying </h2> </center>
+				<br>
+				<h3> Writer's message </h3>
+				<p>
+				The inspiration on why I wrote this essay is because bullying is a social issue that has never been fully eradicated from this society.
+				Even though many organizations have put in a lot of effort into reducing the bullying cases, almost none of it work.
+				</p>
+				<br>
+				<p>
+				Then there's the English-Computer Science Project, Sir Franco required us to create a satirical essay about a social issue, and it will be a merged project with Computer Science.
+				I obviously picked bullying as my topic for the essay, and it brought me here today, creating the webpage for it.
+				</p>
+				<br>
+				<p>
+				Creating this webpage was stressful because I'm not very creative, and the webpage was supposed to be creative.
+				I'm also kind of bad at HTML in the first place and I almost cried writing the CSS for multiple parts of this webpage.
+				Yet it was fun in the end after i got the hang out of it.
+				</p>
+				<br>
+				<p>
+				The webpage looked somewhat great in the end, even though it didn't look exactly what I was picturing in my head.
+				</p>
+			</div>
+			<div>
+				<hr>
+				<p> Copyright &copy; 2020. Doniel Ray Medrano. </p>
+			</div>
+		</div>
+	</body>
+</html>

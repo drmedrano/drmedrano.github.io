@@ -32,21 +32,19 @@
 				text-decoration: none;
 				}
 			
-			#overview {
-				height: 325px;
-				width: 500px;
-				float: left;
-				padding-bottom: 50px;
-				padding-left: 20px;
+			#author {
+				float: right;
+				width: 700px;
+				margin-top: 10px;
+				height: 470px;
+				padding-bottom: 49px;
 				}
 			
-			#Picture {
-				padding-top: 25px;
-				height: 300px;
-				width: 530px;
-				float: right;
-				padding-left: 50px;
+			#picture {
+				float: left;
 				padding-bottom: 50px;
+				padding-right: 22px;
+				padding-top: 24px;
 				}
 			p {
 				padding-top: 5px;
@@ -54,7 +52,7 @@
 				text-align: justify;
 				text-justify: inter-word;
 			 }
-			 @media screen and (max-width: 1100px) and (min-width: 470px){
+			@media screen and (max-width: 1100px) and (min-width: 470px){
 				body{
 					width: 1024px !important;
 				}
@@ -78,27 +76,24 @@
 					padding: 20px !important;
 					font-size: 30px !important;
 				}
-				#overview{
-					width: 900px !important;
+				#picture {
 					overflow: hidden !important;
-					padding-bottom: 0 !important;
+					width: 550px !important;
+					height: 700px !important;
+					padding-left: 225px !important;
+					padding-right: 250px !important;
+				}
+				
+				#author {
+					width: 1024px !important;
+					margin-top: 10px !important;
 					height: auto !important;
-					padding-left: 62px !important;
-					padding-right: 62px !important;
+					padding-bottom: 49px !important;
 				}
-				#Picture{
-					overflow: hidden !important;
-					height: 550px !important;
-					width: 900px !important;
-					padding-left: 62px !important;
-					padding-right: 62px !important;
-					padding-top: 18px !important; 
-					padding-bottom: 45px !important;
-				}
-			 }
+			}
 			@media screen and (max-width: 360px){
 				body{
-					width: 360px !important;
+					width: 350px !important;
 				}
 				#mainpage {
 					width: 360px !important;
@@ -107,54 +102,63 @@
 					width: 360px !important;
 					overflow: hidden !important;
 				}
-				#overview{
-					width: 330px !important;
+				#author {
 					overflow: hidden !important;
-					padding-bottom: 0 !important;
+					width: 330px !important;
 					height: auto !important;
 					padding-left: 20px !important;
 					padding-right: 10px !important;
 				}
-				#Picture{
+				#picture {
 					overflow: hidden !important;
-					height: 192px !important;
-					width: 340px !important;
-					padding-left: 16px !important;
-					padding-right: 4px !important;
-					padding-top: 20px !important;
-					padding-bottom: 10px !important;
+					width: 330px !important;
+					height: auto !important;
+					padding-left: 15px !important;
+					padding-right: 15px !important;
+					padding-bottom: 20px !important;
 				}
+				
 			}
 		</style>
 	</head>
 	
 	<body>
 		<div id="mainpage">
-			<h1 style="margin-left: 10px;"> Home Page </h1>
+			<h1 style="margin-left: 10px;"> Author Page </h1>
 			<div id="navbar">
 				<table>
 					<tr>
-						<td style="padding-right: 10px"> <a href=#> Home </a> </td>
+						<td style="padding-right: 10px"> <a href="index.html"> Home </a> </td>
 						<td style="padding-right: 10px"> <a href="essay.html"> Essay </a> </td>
 						<td> <a href="author.html"> Author </a> </td>
 					</tr>
 				</table>
 			</div>
-			
-			<div id="overview">
-				<center> <h2> Essay Overview </h2>
-				<p> Bullying is a critical ongoing issue and has been around since the 18th century. 
-				The views on bullying back then was lighter than how it is viewed today. 
-				This issue occurs in schools, and places beyond schools. 
-				Despite all of the effort in hosting anti-bullying programs in the past few years, these programs doesn't seem to help at all.
+
+				<img src="author.png" id="picture">
+
+			<div id="author">
+				<p> 
+				Hello, I'm Doniel Ray Medrano, the writer and creator of both the satirical essay and this webpage. This is my first time making a webpage without copypasting HTML codes from other sources, and also my first time writing a satirical essay.
+				</p>
+				<br>
+				<p>
+				I don't have a recent picture of me, so I took a picture of me from facebook dated 2012. The day I passed the first version of my webpage project is also my 15th Birthday, October 28. 
+				</p>
+				<br>
+				<p>
+				I am currently a Grade-9 student of Philippine Science High School Central-Luzon Campus. I don't have a college course that I will be taking at the moment, but my father recommends that I take Electronic Engineering.
+				</p>
+				<br>
+				<p>
+				I like watching twitch streams, especially Noctile streams, and virtual youtuber streams. I also like to play a lot of rhythm games, like Spin Rhythm XD and Musedash. Right now I spend most of my free time playing Osu!. 
 				</p>
 			</div>
-
-			<img src="Bullying.jpg" id="Picture" alt="bullying drawing">
-
+			
 			<div>
 				<hr>
 				<p> Copyright &copy; 2020. Doniel Ray Medrano. </p>
 			</div>
+		</div>
 	</body>
 </html>
